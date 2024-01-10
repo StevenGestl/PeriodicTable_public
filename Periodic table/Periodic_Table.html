@@ -1,173 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <!--PROJECT TIME: 4 Hrs-->
 <!--MESS WITH PADDING SO I CAN ELIMINATE UNNEEDED CELLS IN TABLE-->
 
 <!-- use div as buttons, store data in array thats called with javascript -->
-	<head>
-		<link rel="stylesheet" href="style.css">
-		<title>Periodic Table</title>
-	</head>
-		<body>
 
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<title>Periodic Table</title>
+</head>
+
+<body>
 	<!--<div id="display_element" style="display:none"><p id="demo2"></p></div> -->
 
-	
-				
-		<!-- <button onclick="myFunction()">Click Here</button>  -->
+	<!-- <button onclick="myFunction()">Click Here</button>  -->
 
-		<div class="periodic_elements">
-			<div class= "row">
-				<div class="element_cell nonmetal" onmouseenter="testFunction(); hydrogenPress()" onmouseout="testFunctionOut()"><a href="#" >H</a></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="element_cell noble" id="noble" ><a href="#">He</a></div>
+	<div class="periodic_elements">
+		<div class="row">
+			<div class="element_cell nonmetal" onmouseenter="testFunction(); hydrogenPress()"
+				onmouseout="testFunctionOut()">
+				<a href="#">H</a>
 			</div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="element_cell noble" id="noble"><a href="#">He</a></div>
+		</div>
 
-			<div class = "row">
-				<div class="element_cell alkali"><a href="#">Li</a></div>
-				<div class="element_cell alkali-earth"><a href="#">Be</a></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="element_cell metalloids"><a href="#">B</a></div>
-				<div class="element_cell nonmetal"><a href="#">C</a></div>
-				<div class="element_cell nonmetal"><a href="#">N</a></div>
-				<div class="element_cell nonmetal"><a href="#">O</a></div>
-				<div class="element_cell nonmetal"><a href="#">F</a></div>
-				<div class="element_cell noble"><a href="#">Ne</a></div>
-			</div>
-		
+		<div class="row">
+			<div class="element_cell alkali"><a href="#">Li</a></div>
+			<div class="element_cell alkali-earth"><a href="#">Be</a></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="element_cell metalloids"><a href="#">B</a></div>
+			<div class="element_cell nonmetal"><a href="#">C</a></div>
+			<div class="element_cell nonmetal"><a href="#">N</a></div>
+			<div class="element_cell nonmetal"><a href="#">O</a></div>
+			<div class="element_cell nonmetal"><a href="#">F</a></div>
+			<div class="element_cell noble"><a href="#">Ne</a></div>
+		</div>
 
-		
-			<div class = "row">
-				<div class="element_cell alkali" onmouseover="testFunction();hydrogenPress()" onmouseout="testFunctionOut()"><a href="#">Na</a></div>
-				<div class="element_cell alkali-earth"><a href="#">Mg</a></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="blank_cell"></div>
-				<div class="element_cell post-transition"><a href="#">Al</a></div>
-				<div class="element_cell metalloids"><a href="#">Si</a></div>
-				<div class="element_cell nonmetal"><a href="#">P</a></div>
-				<div class="element_cell nonmetal"><a href="#">S</a></div>
-				<div class="element_cell nonmetal"><a href="#">Cl</a></div>
-				<div class="element_cell noble"><a href="#">Ar</a></div>
+		<div class="row">
+			<div class="element_cell alkali" onmouseover="testFunction();hydrogenPress()"
+				onmouseout="testFunctionOut()">
+				<a href="#">Na</a>
 			</div>
+			<div class="element_cell alkali-earth"><a href="#">Mg</a></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="blank_cell"></div>
+			<div class="element_cell post-transition"><a href="#">Al</a></div>
+			<div class="element_cell metalloids"><a href="#">Si</a></div>
+			<div class="element_cell nonmetal"><a href="#">P</a></div>
+			<div class="element_cell nonmetal"><a href="#">S</a></div>
+			<div class="element_cell nonmetal"><a href="#">Cl</a></div>
+			<div class="element_cell noble"><a href="#">Ar</a></div>
+		</div>
 
-			<div class = "row">
-				<div class="element_cell alkali"><a href="#">K</a></div>
-				<div class="element_cell alkali-earth"><a href="#">Ca</a></div>
-				<div class="element_cell transition"><a href="#">Sc</a></div>
-				<div class="element_cell transition"><a href="#">Ti</a></div>
-				<div class="element_cell transition"><a href="#">V</a></div>
-				<div class="element_cell transition"><a href="#">Cr</a></div>
-				<div class="element_cell transition"><a href="#">Mn</a></div>
-				<div class="element_cell transition"><a href="#">Fe</a></div>
-				<div class="element_cell transition"><a href="#">Co</a></div>
-				<div class="element_cell transition"><a href="#">Ni</a></div>
-				<div class="element_cell transition"><a href="#">Cu</a></div>
-				<div class="element_cell transition"><a href="#">Zn</a></div>
-				<div class="element_cell post-transition"><a href="#">Ga</a></div>
-				<div class="element_cell metalloids"><a href="#">Ge</a></div>
-				<div class="element_cell metalloids"><a href="#">As</a></div>
-				<div class="element_cell nonmetal"><a href="#">Se</a></div>
-				<div class="element_cell nonmetal"><a href="#">Br</a></div>
-				<div class="element_cell noble"><a href="#">Kr</a></div>
-			</div>
+		<div class="row">
+			<div class="element_cell alkali"><a href="#">K</a></div>
+			<div class="element_cell alkali-earth"><a href="#">Ca</a></div>
+			<div class="element_cell transition"><a href="#">Sc</a></div>
+			<div class="element_cell transition"><a href="#">Ti</a></div>
+			<div class="element_cell transition"><a href="#">V</a></div>
+			<div class="element_cell transition"><a href="#">Cr</a></div>
+			<div class="element_cell transition"><a href="#">Mn</a></div>
+			<div class="element_cell transition"><a href="#">Fe</a></div>
+			<div class="element_cell transition"><a href="#">Co</a></div>
+			<div class="element_cell transition"><a href="#">Ni</a></div>
+			<div class="element_cell transition"><a href="#">Cu</a></div>
+			<div class="element_cell transition"><a href="#">Zn</a></div>
+			<div class="element_cell post-transition"><a href="#">Ga</a></div>
+			<div class="element_cell metalloids"><a href="#">Ge</a></div>
+			<div class="element_cell metalloids"><a href="#">As</a></div>
+			<div class="element_cell nonmetal"><a href="#">Se</a></div>
+			<div class="element_cell nonmetal"><a href="#">Br</a></div>
+			<div class="element_cell noble"><a href="#">Kr</a></div>
+		</div>
 
-			<div class = "row">
-				<div class="element_cell alkali"><a href="#">Rb</a></div>
-				<div class="element_cell alkali-earth"><a href="#">Sr</a></div>
-				<div class="element_cell transition"><a href="#">Y</a></div>
-				<div class="element_cell transition"><a href="#">Zr</a></div>
-				<div class="element_cell transition"><a href="#">Nb</a></div>
-				<div class="element_cell transition"><a href="#">Mo</a></div>
-				<div class="element_cell transition"><a href="#">Tc</a></div>
-				<div class="element_cell transition"><a href="#">Ru</a></div>
-				<div class="element_cell transition"><a href="#">Rh</a></div>
-				<div class="element_cell transition"><a href="#">Pd</a></div>
-				<div class="element_cell transition"><a href="#">Ag</a></div>
-				<div class="element_cell transition"><a href="#">Cd</a></div>
-				<div class="element_cell post-transition"><a href="#">In</a></div>
-				<div class="element_cell post-transition"><a href="#">Sn</a></div>
-				<div class="element_cell metalloids"><a href="#">Sb</a></div>
-				<div class="element_cell metalloids"><a href="#">Te</a></div>
-				<div class="element_cell nonmetal"><a href="#">I</a></div>
-				<div class="element_cell noble" id="noble"><a href="#">Xe</a></div>
-			</div>
+		<div class="row">
+			<div class="element_cell alkali"><a href="#">Rb</a></div>
+			<div class="element_cell alkali-earth"><a href="#">Sr</a></div>
+			<div class="element_cell transition"><a href="#">Y</a></div>
+			<div class="element_cell transition"><a href="#">Zr</a></div>
+			<div class="element_cell transition"><a href="#">Nb</a></div>
+			<div class="element_cell transition"><a href="#">Mo</a></div>
+			<div class="element_cell transition"><a href="#">Tc</a></div>
+			<div class="element_cell transition"><a href="#">Ru</a></div>
+			<div class="element_cell transition"><a href="#">Rh</a></div>
+			<div class="element_cell transition"><a href="#">Pd</a></div>
+			<div class="element_cell transition"><a href="#">Ag</a></div>
+			<div class="element_cell transition"><a href="#">Cd</a></div>
+			<div class="element_cell post-transition"><a href="#">In</a></div>
+			<div class="element_cell post-transition"><a href="#">Sn</a></div>
+			<div class="element_cell metalloids"><a href="#">Sb</a></div>
+			<div class="element_cell metalloids"><a href="#">Te</a></div>
+			<div class="element_cell nonmetal"><a href="#">I</a></div>
+			<div class="element_cell noble" id="noble"><a href="#">Xe</a></div>
+		</div>
 
-			<div class = "row">
-				<div class="element_cell alkali"><a href="#">Cs</a></div>
-				<div class="element_cell alkali-earth"><a href="#">Ba</a></div>
-				<div class="element_cell lan"><a href="#">La</a></div>
-				<div class="element_cell transition"><a href="#">Hf</a></div>
-				<div class="element_cell transition"><a href="#">Ta</a></div>
-				<div class="element_cell transition"><a href="#">W</a></div>
-				<div class="element_cell transition"><a href="#">Re</a></div>
-				<div class="element_cell transition"><a href="#">Os</a></div>
-				<div class="element_cell transition"><a href="#">Ir</a></div>
-				<div class="element_cell transition"><a href="#">Pt</a></div>
-				<div class="element_cell transition"><a href="#">Au</a></div>
-				<div class="element_cell transition"><a href="#">Hg</a></div>
-				<div class="element_cell post-transition"><a href="#">Ti</a></div>
-				<div class="element_cell post-transition"><a href="#">Pb</a></div>
-				<div class="element_cell post-transition"><a href="#">Bi</a></div>
-				<div class="element_cell post-transition"><a href="#">Po</a></div>
-				<div class="element_cell post-transition"><a href="#">At</a></div>
-				<div class="element_cell noble"><a href="#">Rn</a></div>
-			</div>
-			<div class = "row">
-				<div class="element_cell alkali"><a href="#">Fr</a></div>
-				<div class="element_cell alkali-earth"><a href="#">Ra</a></div>
-				<div class="element_cell act"><a href="#">Ac</a></div>
-				<div class="element_cell transition"><a href="#">Rf</a></div>
-				<div class="element_cell transition"><a href="#">Db</a></div>
-				<div class="element_cell transition"><a href="#">Sg</a></div>
-				<div class="element_cell transition"><a href="#">Bh</a></div>
-				<div class="element_cell transition"><a href="#">Hs</a></div>
-				<div class="element_cell unknown"><a href="#">Mt</a></div>
-				<div class="element_cell unknown"><a href="#">Ds</a></div>
-				<div class="element_cell unknown"><a href="#">Rg</a></div>
-				<div class="element_cell unknown"><a href="#">Cn</a></div>
-				<div class="element_cell unknown"><a href="#">Nh</a></div>
-				<div class="element_cell unknown"><a href="#">Fl</a></div>
-				<div class="element_cell unknown"><a href="#">Mc</a></div>
-				<div class="element_cell unknown"><a href="#">Lv</a></div>
-				<div class="element_cell unknown"><a href="#">Ts</a></div>
-				<div class="element_cell unknown"><a href="#">Og</a></div>
-			</div>
+		<div class="row">
+			<div class="element_cell alkali"><a href="#">Cs</a></div>
+			<div class="element_cell alkali-earth"><a href="#">Ba</a></div>
+			<div class="element_cell lan"><a href="#">La</a></div>
+			<div class="element_cell transition"><a href="#">Hf</a></div>
+			<div class="element_cell transition"><a href="#">Ta</a></div>
+			<div class="element_cell transition"><a href="#">W</a></div>
+			<div class="element_cell transition"><a href="#">Re</a></div>
+			<div class="element_cell transition"><a href="#">Os</a></div>
+			<div class="element_cell transition"><a href="#">Ir</a></div>
+			<div class="element_cell transition"><a href="#">Pt</a></div>
+			<div class="element_cell transition"><a href="#">Au</a></div>
+			<div class="element_cell transition"><a href="#">Hg</a></div>
+			<div class="element_cell post-transition"><a href="#">Ti</a></div>
+			<div class="element_cell post-transition"><a href="#">Pb</a></div>
+			<div class="element_cell post-transition"><a href="#">Bi</a></div>
+			<div class="element_cell post-transition"><a href="#">Po</a></div>
+			<div class="element_cell post-transition"><a href="#">At</a></div>
+			<div class="element_cell noble"><a href="#">Rn</a></div>
+		</div>
+		<div class="row">
+			<div class="element_cell alkali"><a href="#">Fr</a></div>
+			<div class="element_cell alkali-earth"><a href="#">Ra</a></div>
+			<div class="element_cell act"><a href="#">Ac</a></div>
+			<div class="element_cell transition"><a href="#">Rf</a></div>
+			<div class="element_cell transition"><a href="#">Db</a></div>
+			<div class="element_cell transition"><a href="#">Sg</a></div>
+			<div class="element_cell transition"><a href="#">Bh</a></div>
+			<div class="element_cell transition"><a href="#">Hs</a></div>
+			<div class="element_cell unknown"><a href="#">Mt</a></div>
+			<div class="element_cell unknown"><a href="#">Ds</a></div>
+			<div class="element_cell unknown"><a href="#">Rg</a></div>
+			<div class="element_cell unknown"><a href="#">Cn</a></div>
+			<div class="element_cell unknown"><a href="#">Nh</a></div>
+			<div class="element_cell unknown"><a href="#">Fl</a></div>
+			<div class="element_cell unknown"><a href="#">Mc</a></div>
+			<div class="element_cell unknown"><a href="#">Lv</a></div>
+			<div class="element_cell unknown"><a href="#">Ts</a></div>
+			<div class="element_cell unknown"><a href="#">Og</a></div>
+		</div>
 
-		<div class = "other_elements">
-			<div class = "row">
+		<div class="other_elements">
+			<div class="row">
 				<div class="blank_cell"></div>
 				<div class="blank_cell"></div>
 				<div class="blank_cell"></div>
@@ -187,7 +190,7 @@
 				<div class="element_cell lan"><a href="#">Lu</a></div>
 			</div>
 
-			<div class = "row">
+			<div class="row">
 				<div class="blank_cell"></div>
 				<div class="blank_cell"></div>
 				<div class="blank_cell"></div>
@@ -209,34 +212,62 @@
 		</div>
 	</div>
 
-	<div id="display_element" style="display:none">
+	<!--Remove below div when finished with demos-->
+	<div id="display_element" style="display: none;">
 		<p id="demo"></p>
 		<p id="demo1"></p>
 		<p id="demo2"></p>
 		<p id="demo3"></p>
 	</div>
 
-	<div id="btn_row"> 
-	<h2>Legend</h2>
-		<button class="noble" onmouseover="noblePress()" onmouseleave="nobleExit()">Noble Gases</button>
-		<button class ="alkali" onmouseover="alkaliPress()" onmouseleave="alkaliExit()">Alkali Metals</button>
-		<button class="metalloids" onmouseover="metalloidsPress()" onmouseleave="metalloidsExit()">Metalloids</button>
-		<button class="act" onmouseover="actPress()" onmouseleave="actExit()">Actinides</button>
-		<button class="alkali-earth" onmouseover="alkaliEPress()" onmouseleave="alkaliEExit()">Alkaline earth metals</button><br>
-		<button class="nonmetal" onmouseover="nonPress()" onmouseleave="nonExit()">Reactive nonmetals</button>
-		<button class="unknown" onmouseover="unPress()" onmouseleave="unExit()">Unknown properties</button>
-		<button class="transition" onmouseover="tranPress()" onmouseleave="tranExit()">Transition metals</button>
-		<button class="post-transition" onmouseover="postPress()" onmouseleave="postExit()">Post-transition metals</button>
-		<button class="lan" onmouseover="lanPress()" onmouseleave="lanExit()">Lanthanides</button>
-	</div>
-		<br>
-		<button onmouseover="testBtn();" onmouseleave="testBtnExit();">Test BTN</button>
-		<div id = "test" class="test_div">This is the test</div>
-		<div id = "test" class="test_div">This is the test</div>
-
-		<script src="myScript.js">
-		</script>
-				
-	</body>
 	
+
+	<div id="btn_row">
+		<h2>Legend</h2>
+		<button class="noble" onmouseover="noblePress()" onmouseleave="nobleExit()">
+			Noble Gases
+		</button>
+		<button class="alkali-btn" onmouseover="alkaliPress()" onmouseleave="alkaliExit()">
+			Alkali Metals
+		</button>
+		<button class="metalloids" onmouseover="metalloidsPress()" onmouseleave="metalloidsExit()">
+			Metalloids
+		</button>
+		<button class="act" onmouseover="actPress()" onmouseleave="actExit()">
+			Actinides
+		</button>
+		<button class="alkali-earth" onmouseover="alkaliEPress()" onmouseleave="alkaliEExit()">
+			Alkaline earth metals</button><br />
+		<button class="nonmetal" onmouseover="nonPress()" onmouseleave="nonExit()">
+			Reactive nonmetals
+		</button>
+		<button class="unknown" onmouseover="unPress()" onmouseleave="unExit()">
+			Unknown properties
+		</button>
+		<button class="transition" onmouseover="tranPress()" onmouseleave="tranExit()">
+			Transition metals
+		</button>
+		<button class="post-transition" onmouseover="postPress()" onmouseleave="postExit()">
+			Post-transition metals
+		</button>
+		<button class="lan" onmouseover="lanPress()" onmouseleave="lanExit()">
+			Lanthanides
+		</button>
+	</div>
+	<br />
+	<button onmouseover="testBtn();" onmouseleave="testBtnExit();">
+		Test BTN
+	</button>
+
+	<button class="hvr-btn">Hover effect on/off</button>
+	<div id="test" class="test_div">This is the test</div>
+	<div id="test" class="test_div">This is the test</div>
+
+	<p class="j-demo"></p>
+	<button class="btn-jquery">Add Class</button>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="myScript.js"></script>
+</body>
+
 </html>

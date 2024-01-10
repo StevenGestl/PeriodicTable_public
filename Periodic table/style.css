@@ -125,7 +125,8 @@ a {
 
 .test_div:hover {
   background-color: white;
-  opacity: .6;
+  opacity: 1;
+  border: 5px solid red
 }
 
 .noble_after {
@@ -206,12 +207,41 @@ a {
           }
   
           .element_cell:hover {
-            opacity: 0;
-            background-color: white;
+            opacity: 1;
+            background-color: white !important;
             border-radius: 8px;
           }
   
       tD:hover {color:red;
           }
 
-    
+  .highlight-cell {
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 1px;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-color: yellow;
+    opacity: .8;
+  }
+
+  .jquery_style {
+    background-color: red;
+  }
+
+  #j-demo:hover {
+    background-color: white;
+  }
+
+  .alkali-after {
+    background-color: red;
+  }
+
+  .element_cell-after {
+    background-color: aqua;
+    opacity: .5;
+  }
