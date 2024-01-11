@@ -1,3 +1,5 @@
+/* */
+
 var table = document.getElementById("perTable");
 if (table != null) {
   for (var i = 0; i < table.rows.length; i++) {
@@ -8,29 +10,32 @@ if (table != null) {
   }
 }
 
-$(document).ready(function() {
+/* Jquery test functions */
+
+$(document).ready(function () {
   $(".j-demo").html("Hello, World!");
 });
 
-$(document).ready(function() {
-  $(".btn-jquery").click(function(){
+$(document).ready(function () {
+  $(".btn-jquery").click(function () {
     $(".j-demo").toggleClass("jquery_style");
-  })
-})
-
+  });
+});
 
 /* Jquery for element highlight toggle */
-$(document).ready(function() {
-  $(".alkali-btn").mouseleave(function(){
+$(document).ready(function () {
+  $(".alkali-btn").mouseleave(function () {
     $(".alkali").toggleClass("alkali-after");
-  })
-})
+  });
+});
 
-$(document).ready(function() {
-  $("hvr-btn").click(function(){
-    $(".element_cell").removeClass("element_cell:hover")
-  })
-})
+
+/* jQuery function to remove hover effect on cells, needs work */
+$(document).ready(function () {
+  $("hvr-btn").click(function () {
+    $(".element_cell").removeClass("element_cell:hover");
+  });
+});
 
 function tableText(tableCell) {
   alert(tableCell.innerHTML);
@@ -40,6 +45,7 @@ function tableTalk(tableCell) {
   document.getElementById("demo1").innerHTML = tableCell.innerHTML;
 }
 
+/* Pulls array data from hydrogen const and places into a div using DOM */
 function hydrogenPress() {
   document.getElementById("demo").innerHTML = "Name: " + hydrogen[0];
   document.getElementById("demo1").innerHTML = hydrogen[1];
@@ -47,19 +53,23 @@ function hydrogenPress() {
   document.getElementById("demo3").innerHTML = hydrogenString;
 }
 
+/* Pulls array data from helium const and places into DOM */
 function heliumPress() {
   document.getElementById("demo1").innerHTML = helium;
 }
 
+/* Array data for various elements in the table */
 const hydrogen = ["Hydrogen", "H", 1, 1.008];
 const hydrogenString = hydrogen.join(" , ");
 const helium = ["Helium", "Gas"];
 
-function testFunctikn() {
+/* displays div with data from hydrogenPress function */
+function testFunction() {
   var T = document.getElementById("display_element");
   T.style.display = "block";
 }
 
+/* removes display of div with data from hydrogenPress function */
 function testFunctionOut() {
   var T = document.getElementById("display_element");
   T.style.display = "none";
@@ -77,15 +87,15 @@ function testBtn() {
   }
 }
 
-
-
 function testBtnExit() {
   let test = document.getElementsByClassName("test_div");
 
-  for (var i = 0; i< test.length; i++) {
-    test[i].style.backgroundColor= "green";
+  for (var i = 0; i < test.length; i++) {
+    test[i].style.backgroundColor = "green";
   }
 }
+
+/* 
 
 function noblePress() {
   document.getElementsByClassName("noble").className = " .noble_after";
@@ -104,12 +114,13 @@ function nobleExit() {
   for (let i = 0; i < allElements.length; i++) {
     allElements[i].style.opacity = 1;
   }
-}
+} */
+
 
 /* Need to change this function so it reverts to a css class not just an element
 test_div is a good example of this 
 
-NOBLE BEFORE I REDO THE FUNCTION
+NOBLE BEFORE I REDO THE FUNCTION */
 
 function noblePress() {
     let myElement = document.querySelectorAll(".noble");
@@ -145,8 +156,6 @@ function nobleExit() {
             }
     }
     
-    */
-
     
 
 function alkaliPress() {
@@ -166,7 +175,6 @@ function alkaliPress() {
   }
 }
 
-
 function alkaliExit() {
   let myElement = document.querySelectorAll(".alkali");
   let allElements = document.querySelectorAll(".element_cell");
@@ -183,7 +191,6 @@ function alkaliExit() {
     myElement[i].style.opacity = 1;
   }
 }
- 
 
 function metalloidsPress() {
   let myElement = document.querySelectorAll(".metalloids");
