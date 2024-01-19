@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(153,153,255);
-  }
+  background-color: rgb(153, 153, 255);
+}
 
 button {
-  width: 95px;
-  height: 60px;
+  width: 80px;
+  height: 50px;
   background-color: aquamarine;
   align-items: center;
   display: inline-block;
@@ -13,24 +13,13 @@ button {
   transition-duration: .4s;
   white-space: normal;
   text-align: center;
-vertical-align: middle;  
+  vertical-align: middle;
 }
 
 button:hover {
   opacity: .5;
 }
 
-#btn_row {
-  width: 33%;
-  background-color: teal;
-  display: inline-block;
-  margin-top: 45px;
-  margin-left: 33%;
-  margin-right: 33;
-  border-radius: 5px;
-  border: 5px solid black;
-  text-align: center;
-}
 
 .row {
   display: flex;
@@ -46,7 +35,7 @@ button:hover {
   background-color: green;
 }
 
-#demo3 { 
+#demo3 {
   background-color: purple;
 }
 
@@ -60,39 +49,61 @@ a {
   text-align: center;
   line-height: 43px;
   z-index: -1;
+  text-decoration: none;
+  color: black;
 }
- 
 
+.info {
+  width: 100%;
+}
 
 #display_element {
   color: black;
-  background-color: white;
+  background-color: teal;
   font-size: 14px;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  border-radius: 8px;
+  border-radius: 5px;
   text-align: center;
+  margin-top: 1%;
+  margin-left: 10%;
+  border: 5px solid black;
   opacity: 1;
-  height: 95px;
-  width: 95px;
+  height: 220px;
+  width: 220px;
   z-index: 1;
   position: absolute;
 }
 
-
+#btn_row {
+  width: 33%;
+  background-color: teal;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 33%;
+  margin-right: 33%;
+  border-radius: 5px;
+  border: 5px solid black;
+  text-align: center;
+}
 
 .other_elements {
   padding-top: 10px;
 }
 
-.periodic_elements {
-  background-color: rgb(153,153,255);
+.periodic_div {
   width: 70%;
-  z-index: 0;
   margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.periodic_elements {
+  background-color: rgb(153, 153, 255);
+  z-index: 0;
+  margin-top: 3%;
 }
 
 .element_cell {
@@ -150,105 +161,106 @@ a {
 
 }
 
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    width:200px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto
-  
-  }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  width: 200px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto
+}
 
-  th, td {
-    padding: 8px;
-    text-align: center;
-    border: 1px solid #DDD;
-  }
-  
-          .alkali{
-          background-color:#99e6ff;
-          }
-          
-          .alkali-earth{
-          background-color:pink;
-          }
-          
-          .transition{
-          background-color:#b399ff;
-          }
-          
-          
-          .metalloids{
-          background-color:yellow;
-          }
-          
-      
-          .noble{
-          background-color: #ffb3b3;
-          }
-          
-          .nonmetal{
-          background-color:#99b3ff;
-          }
-          
-          .post-transition{
-          background-color:green; 
-          }
-          
-          .lan{
-          background-color:#66ffb3;
-          }
-          
-          
-          .act{
-          background-color:orange;
-          }
-          
-          .unknown{
-          background-color:gray;
-          }
-          
-          #hide{
-          border:none;
-          }
-  
-          .element_cell:hover {
-            opacity: 1;
-            background-color: white !important;
-            border-radius: 8px;
-          }
-  
-      tD:hover {color:red;
-          }
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #DDD;
+}
 
-  .highlight-cell {
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    box-sizing: border-box;
-    border-radius: 3px;
-    margin: 1px;
-    display: block;
-    width: 45px;
-    height: 45px;
-    background-color: yellow;
-    opacity: .8;
-  }
+.alkali {
+  background-color: #99e6ff;
+}
 
-  .jquery_style {
-    background-color: red;
-  }
+.alkali-earth {
+  background-color: pink;
+}
 
-  #j-demo:hover {
-    background-color: white;
-  }
+.transition {
+  background-color: #b399ff;
+}
 
-  .alkali-after {
-    background-color: red;
-  }
 
-  .element_cell-after {
-    background-color: aqua;
-    opacity: .5;
-  }
+.metalloids {
+  background-color: yellow;
+}
+
+
+.noble {
+  background-color: #ffb3b3;
+}
+
+.nonmetal {
+  background-color: #99b3ff;
+}
+
+.post-transition {
+  background-color: green;
+}
+
+.lan {
+  background-color: #66ffb3;
+}
+
+
+.act {
+  background-color: orange;
+}
+
+.unknown {
+  background-color: gray;
+}
+
+#hide {
+  border: none;
+}
+
+.element_cell:hover {
+  opacity: 1;
+  background-color: white !important;
+  border-radius: 8px;
+}
+
+tD:hover {
+  color: red;
+}
+
+.highlight-cell {
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 1px;
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-color: yellow;
+  opacity: .8;
+}
+
+.jquery_style {
+  background-color: red;
+}
+
+#j-demo:hover {
+  background-color: white;
+}
+
+.alkali-after {
+  background-color: red;
+}
+
+.element_cell-after {
+  background-color: aqua;
+  opacity: .5;
+}
