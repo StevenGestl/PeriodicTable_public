@@ -53,6 +53,112 @@ function hydrogenPress() {
   document.getElementById("demo3").innerHTML = hydrogenString;
 }
 
+function lithiumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + lithium[0];
+  document.getElementById("demo1").innerHTML = lithium[1];
+  document.getElementById("demo2").innerHTML = lithium[2];
+  document.getElementById("demo3").innerHTML = lithiumString;
+}
+
+function sodiumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + sodium[0];
+  document.getElementById("demo1").innerHTML = sodium[1];
+  document.getElementById("demo2").innerHTML = sodium[2];
+  document.getElementById("demo3").innerHTML = sodiumString;
+}
+
+function potasiumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + potasium[0];
+  document.getElementById("demo1").innerHTML = potasium[1];
+  document.getElementById("demo2").innerHTML = potasium[2];
+  document.getElementById("demo3").innerHTML = potasiumString;
+}
+
+function caesiuimPress() {
+  document.getElementById("demo").innerHTML = "Name: " + caesiuim[0];
+  document.getElementById("demo1").innerHTML = caesiuim[1];
+  document.getElementById("demo2").innerHTML = caesiuim[2];
+  document.getElementById("demo3").innerHTML = caesiuimString;
+}
+
+function franciumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + francium[0];
+  document.getElementById("demo1").innerHTML = francium[1];
+  document.getElementById("demo2").innerHTML = francium[2];
+  document.getElementById("demo3").innerHTML = franciumString;
+}
+
+function berylliumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + beryllium[0];
+  document.getElementById("demo1").innerHTML = beryllium[1];
+  document.getElementById("demo2").innerHTML = beryllium[2];
+  document.getElementById("demo3").innerHTML = berylliumString;
+}
+
+function magnesiuimPress() {
+  document.getElementById("demo").innerHTML = "Name: " + magnesiuim[0];
+  document.getElementById("demo1").innerHTML = magnesiuim[1];
+  document.getElementById("demo2").innerHTML = magnesiuim[2];
+  document.getElementById("demo3").innerHTML = magnesiuimString;
+}
+
+function calciumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + calcium[0];
+  document.getElementById("demo1").innerHTML = calcium[1];
+  document.getElementById("demo2").innerHTML = calcium[2];
+  document.getElementById("demo3").innerHTML = calciumString;
+}
+
+function strontiumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + strontium[0];
+  document.getElementById("demo1").innerHTML = strontium[1];
+  document.getElementById("demo2").innerHTML = strontium[2];
+  document.getElementById("demo3").innerHTML = strontiumString;
+}
+
+function bariumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + barium[0];
+  document.getElementById("demo1").innerHTML = barium[1];
+  document.getElementById("demo2").innerHTML = barium[2];
+  document.getElementById("demo3").innerHTML = bariumString;
+}
+
+function radiumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + radium[0];
+  document.getElementById("demo1").innerHTML = radium[1];
+  document.getElementById("demo2").innerHTML = radium[2];
+  document.getElementById("demo3").innerHTML = radiumString;
+}
+
+function scandiumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + scandium[0];
+  document.getElementById("demo1").innerHTML = scandium[1];
+  document.getElementById("demo2").innerHTML = scandium[2];
+  document.getElementById("demo3").innerHTML = scandiumString;
+}
+
+function yttriumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + yttrium[0];
+  document.getElementById("demo1").innerHTML = yttrium[1];
+  document.getElementById("demo2").innerHTML = yttrium[2];
+  document.getElementById("demo3").innerHTML = yttriumString;
+}
+
+function lanthanumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + lanthanum[0];
+  document.getElementById("demo1").innerHTML = lanthanum[1];
+  document.getElementById("demo2").innerHTML = lanthanum[2];
+  document.getElementById("demo3").innerHTML = lanthanumString;
+}
+
+function actiniumPress() {
+  document.getElementById("demo").innerHTML = "Name: " + actinium[0];
+  document.getElementById("demo1").innerHTML = actinium[1];
+  document.getElementById("demo2").innerHTML = actinium[2];
+  document.getElementById("demo3").innerHTML = actiniumString;
+}
+
+
 /* Pulls array data from helium const and places into DOM */
 function heliumPress() {
   document.getElementById("demo1").innerHTML = helium;
@@ -60,6 +166,22 @@ function heliumPress() {
 
 /* Array data for various elements in the table */
 const hydrogen = ["Hydrogen", "H", 1, 1.008];
+const lithium = ["Lithium", "Li", 3, 6.9410];
+const sodium = ["Sodium", "Na", 11, 22.990];
+const potasium = ["Potasium", "K", 19, 39.098];
+const rubidium = ["Rubidium", "Rb", 37, 85.468];
+const caesiuim = ["Caesium", "Cs", 55, 132.91];
+const francium = ["Francium", "Fr", 87, 223];
+const beryllium = ["Beryllium", "Be", 4, 9.0122];
+const magnesium = ["Magnesium", "Mg", 12, 24.305];
+const calcium = ["Calcium", "Ca", 20, 40.078];
+const strontium = ["Strongtium", "Sr", 38, 87.620];
+const barium = ["Barium", "Ba", 56, 137.33];
+const radium = ["Radium", "Ra", 88, 226];
+const scandium = ["Scandium", "Sc", 21, 44.956];
+const yttrium = ["Yttrium", "Y", 39, 88.906];
+const lanthanum = ["Lanthanum", "La", 57, 138.91];
+const actinium = ["Actinium", "Ac", 89, 227];
 const hydrogenString = hydrogen.join(" , ");
 const helium = ["Helium", "Gas"];
 
