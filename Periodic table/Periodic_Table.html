@@ -14,12 +14,12 @@
 
     <!-- <button onclick="myFunction()">Click Here</button>  -->
 <div class="periodic_div">
-    <div class="periodic_elements">
+    <div class="periodic_elements" onmouseout="testFunctionOut()">
       <div class="row">
         <div
           class="element_cell nonmetal"
           onmouseenter="testFunction(); hydrogenPress()"
-          onmouseout="testFunctionOut()"
+          
         >
           <a href="#">H</a>
         </div>
@@ -39,11 +39,11 @@
         <div class="blank_cell"></div>
         <div class="blank_cell"></div>
         <div class="blank_cell"></div>
-        <div class="element_cell noble" id="noble"><a href="#">He</a></div>
+        <div class="element_cell noble" onmouseenter="heliumPress()" id="noble"><a href="#">He</a></div>
       </div>
 
       <div class="row">
-        <div class="element_cell alkali" onmouseenter="testFunction(); lithiumPress();" onmouseout="testFunctionOut()"><a href="#">Li</a></div>
+        <div class="element_cell alkali" onmouseenter="lithiumPress();"><a href="#">Li</a></div>
         <div class="element_cell alkali-earth" onmouseenter="testFunction(); berylliumPress();" ><a href="#">Be</a></div>
         <div class="blank_cell"></div>
         <div class="blank_cell"></div>
@@ -55,19 +55,19 @@
         <div class="blank_cell"></div>
         <div class="blank_cell"></div>
         <div class="blank_cell"></div>
-        <div class="element_cell metalloids"><a href="#">B</a></div>
-        <div class="element_cell nonmetal"><a href="#">C</a></div>
-        <div class="element_cell nonmetal"><a href="#">N</a></div>
-        <div class="element_cell nonmetal"><a href="#">O</a></div>
-        <div class="element_cell nonmetal"><a href="#">F</a></div>
-        <div class="element_cell noble"><a href="#">Ne</a></div>
+        <div class="element_cell metalloids" onmouseenter="boronPress()"><a href="#">B</a></div>
+        <div class="element_cell nonmetal" onmouseenter="carbonPress()"><a href="#">C</a></div>
+        <div class="element_cell nonmetal" onmouseenter="nitrogenPress()"><a href="#">N</a></div>
+        <div class="element_cell nonmetal" onmouseenter="oxygenPress()"><a href="#">O</a></div>
+        <div class="element_cell nonmetal" onmouseenter="fluorinePress()"><a href="#">F</a></div>
+        <div class="element_cell noble" onmouseenter="neonPress()"><a href="#">Ne</a></div>
       </div>
 
       <div class="row">
-        <div class="element_cell alkali">
+        <div class="element_cell alkali" onmouseenter="sodiumPress()">
           <a href="#">Na</a>
         </div>
-        <div class="element_cell alkali-earth"><a href="#">Mg</a></div>
+        <div class="element_cell alkali-earth" onmouseenter="magnesiumPress()"><a href="#">Mg</a></div>
         <div class="blank_cell"></div>
         <div class="blank_cell"></div>
         <div class="blank_cell"></div>
@@ -78,95 +78,95 @@
         <div class="blank_cell"></div>
         <div class="blank_cell"></div>
         <div class="blank_cell"></div>
-        <div class="element_cell post-transition"><a href="#">Al</a></div>
-        <div class="element_cell metalloids"><a href="#">Si</a></div>
-        <div class="element_cell nonmetal"><a href="#">P</a></div>
-        <div class="element_cell nonmetal"><a href="#">S</a></div>
-        <div class="element_cell nonmetal"><a href="#">Cl</a></div>
-        <div class="element_cell noble"><a href="#">Ar</a></div>
+        <div class="element_cell post-transition" onmouseenter="aluminiumPress()"><a href="#">Al</a></div>
+        <div class="element_cell metalloids" onmouseenter="siliconPress()"><a href="#">Si</a></div>
+        <div class="element_cell nonmetal" onmouseenter="phosphorusPress()"><a href="#">P</a></div>
+        <div class="element_cell nonmetal" onmouseenter="sulfurPress()"><a href="#">S</a></div>
+        <div class="element_cell nonmetal" onmouseenter="chlorinePress()"><a href="#">Cl</a></div>
+        <div class="element_cell noble" onmouseenter="argonPress()"><a href="#">Ar</a></div>
       </div>
 
       <div class="row">
-        <div class="element_cell alkali"><a href="#">K</a></div>
-        <div class="element_cell alkali-earth"><a href="#">Ca</a></div>
-        <div class="element_cell transition"><a href="#">Sc</a></div>
-        <div class="element_cell transition"><a href="#">Ti</a></div>
-        <div class="element_cell transition"><a href="#">V</a></div>
-        <div class="element_cell transition"><a href="#">Cr</a></div>
-        <div class="element_cell transition"><a href="#">Mn</a></div>
-        <div class="element_cell transition"><a href="#">Fe</a></div>
-        <div class="element_cell transition"><a href="#">Co</a></div>
-        <div class="element_cell transition"><a href="#">Ni</a></div>
-        <div class="element_cell transition"><a href="#">Cu</a></div>
-        <div class="element_cell transition"><a href="#">Zn</a></div>
-        <div class="element_cell post-transition"><a href="#">Ga</a></div>
-        <div class="element_cell metalloids"><a href="#">Ge</a></div>
-        <div class="element_cell metalloids"><a href="#">As</a></div>
-        <div class="element_cell nonmetal"><a href="#">Se</a></div>
-        <div class="element_cell nonmetal"><a href="#">Br</a></div>
-        <div class="element_cell noble"><a href="#">Kr</a></div>
+        <div class="element_cell alkali" onmouseenter="potasiumPress()"><a href="#">K</a></div>
+        <div class="element_cell alkali-earth" onmouseenter="calciumPress()"><a href="#">Ca</a></div>
+        <div class="element_cell transition" onmouseenter="scandiumPress()"><a href="#">Sc</a></div>
+        <div class="element_cell transition" onmouseenter="titaniumPress()"><a href="#">Ti</a></div>
+        <div class="element_cell transition" onmouseenter="vanadiumPress()"><a href="#">V</a></div>
+        <div class="element_cell transition" onmouseenter="chromiumPress()"><a href="#">Cr</a></div>
+        <div class="element_cell transition" onmouseenter="manganesePress()"><a href="#">Mn</a></div>
+        <div class="element_cell transition" onmouseenter="ironPress()"><a href="#">Fe</a></div>
+        <div class="element_cell transition" onmouseenter="cobaltPress()"><a href="#">Co</a></div>
+        <div class="element_cell transition" onmouseenter="nickelPress()"><a href="#">Ni</a></div>
+        <div class="element_cell transition" onmouseenter="copperPress()"><a href="#">Cu</a></div>
+        <div class="element_cell transition" onmouseenter="zincPress()"><a href="#">Zn</a></div>
+        <div class="element_cell post-transition" onmouseenter="galliumPress()"><a href="#">Ga</a></div>
+        <div class="element_cell metalloids" onmouseenter="germaniumPress()"><a href="#">Ge</a></div>
+        <div class="element_cell metalloids" onmouseenter="arsenicPress()"><a href="#">As</a></div>
+        <div class="element_cell nonmetal" onmouseenter="seleniumPress()"><a href="#">Se</a></div>
+        <div class="element_cell nonmetal" onmouseenter="brominePress()"><a href="#">Br</a></div>
+        <div class="element_cell noble" onmouseenter="kryptonPress()"><a href="#">Kr</a></div>
       </div>
 
       <div class="row">
-        <div class="element_cell alkali"><a href="#">Rb</a></div>
-        <div class="element_cell alkali-earth"><a href="#">Sr</a></div>
-        <div class="element_cell transition"><a href="#">Y</a></div>
-        <div class="element_cell transition"><a href="#">Zr</a></div>
-        <div class="element_cell transition"><a href="#">Nb</a></div>
-        <div class="element_cell transition"><a href="#">Mo</a></div>
-        <div class="element_cell transition"><a href="#">Tc</a></div>
-        <div class="element_cell transition"><a href="#">Ru</a></div>
-        <div class="element_cell transition"><a href="#">Rh</a></div>
-        <div class="element_cell transition"><a href="#">Pd</a></div>
-        <div class="element_cell transition"><a href="#">Ag</a></div>
-        <div class="element_cell transition"><a href="#">Cd</a></div>
-        <div class="element_cell post-transition"><a href="#">In</a></div>
-        <div class="element_cell post-transition"><a href="#">Sn</a></div>
-        <div class="element_cell metalloids"><a href="#">Sb</a></div>
-        <div class="element_cell metalloids"><a href="#">Te</a></div>
-        <div class="element_cell nonmetal"><a href="#">I</a></div>
-        <div class="element_cell noble" id="noble"><a href="#">Xe</a></div>
+        <div class="element_cell alkali" onmouseenter="rubidiumPress()"><a href="#">Rb</a></div>
+        <div class="element_cell alkali-earth" onmouseenter="strontiumPress()"><a href="#">Sr</a></div>
+        <div class="element_cell transition" onmouseenter="yttriumPress()"><a href="#">Y</a></div>
+        <div class="element_cell transition" onmouseenter="zirconiumPress()"><a href="#">Zr</a></div>
+        <div class="element_cell transition" onmouseenter="niobiumPress()"><a href="#">Nb</a></div>
+        <div class="element_cell transition" onmouseenter="MolybdenumPress()"><a href="#">Mo</a></div>
+        <div class="element_cell transition" onmouseenter="technetiumPress()"><a href="#">Tc</a></div>
+        <div class="element_cell transition" onmouseenter="rutheniumPress()"><a href="#">Ru</a></div>
+        <div class="element_cell transition" onmouseenter="rhodiumPress()"><a href="#">Rh</a></div>
+        <div class="element_cell transition" onmouseenter="palladiumPress()"><a href="#">Pd</a></div>
+        <div class="element_cell transition" onmouseenter="silverPress()"><a href="#">Ag</a></div>
+        <div class="element_cell transition" onmouseenter="cadmiumPress()"><a href="#">Cd</a></div>
+        <div class="element_cell post-transition" indiumPress()><a href="#">In</a></div>
+        <div class="element_cell post-transition" onmouseenter="tinPress()"><a href="#">Sn</a></div>
+        <div class="element_cell metalloids" onmouseenter="antimonyPress()"><a href="#">Sb</a></div>
+        <div class="element_cell metalloids" onmouseenter="telluriumPress()"><a href="#">Te</a></div>
+        <div class="element_cell nonmetal" onmouseenter="iodinePress()"><a href="#">I</a></div>
+        <div class="element_cell noble" id="noble" onmouseenter="xenonPress()"><a href="#">Xe</a></div>
       </div>
 
       <div class="row">
-        <div class="element_cell alkali"><a href="#">Cs</a></div>
-        <div class="element_cell alkali-earth"><a href="#">Ba</a></div>
-        <div class="element_cell lan"><a href="#">La</a></div>
-        <div class="element_cell transition"><a href="#">Hf</a></div>
-        <div class="element_cell transition"><a href="#">Ta</a></div>
-        <div class="element_cell transition"><a href="#">W</a></div>
-        <div class="element_cell transition"><a href="#">Re</a></div>
-        <div class="element_cell transition"><a href="#">Os</a></div>
-        <div class="element_cell transition"><a href="#">Ir</a></div>
-        <div class="element_cell transition"><a href="#">Pt</a></div>
-        <div class="element_cell transition"><a href="#">Au</a></div>
-        <div class="element_cell transition"><a href="#">Hg</a></div>
-        <div class="element_cell post-transition"><a href="#">Ti</a></div>
-        <div class="element_cell post-transition"><a href="#">Pb</a></div>
-        <div class="element_cell post-transition"><a href="#">Bi</a></div>
-        <div class="element_cell post-transition"><a href="#">Po</a></div>
-        <div class="element_cell post-transition"><a href="#">At</a></div>
-        <div class="element_cell noble"><a href="#">Rn</a></div>
+        <div class="element_cell alkali" onmouseenter="caesiumPress()"><a href="#">Cs</a></div>
+        <div class="element_cell alkali-earth" onmouseenter="bariumPress()"><a href="#">Ba</a></div>
+        <div class="element_cell lan" onmouseenter="lanthanumPress()"><a href="#">La</a></div>
+        <div class="element_cell transition" onmouseenter="hafniumPress()"><a href="#">Hf</a></div>
+        <div class="element_cell transition" onmouseenter="tantalumPress()"><a href="#">Ta</a></div>
+        <div class="element_cell transition" onmouseenter="tungstenPress()"><a href="#">W</a></div>
+        <div class="element_cell transition" onmouseenter="rheniumPress()"><a href="#">Re</a></div>
+        <div class="element_cell transition" onmouseenter="osmiumPress()"><a href="#">Os</a></div>
+        <div class="element_cell transition" onmouseenter="iridiumPress()"><a href="#">Ir</a></div>
+        <div class="element_cell transition" onmouseenter="platinumPress()"><a href="#">Pt</a></div>
+        <div class="element_cell transition" onmouseenter="goldPress()"><a href="#">Au</a></div>
+        <div class="element_cell transition" onmouseenter="mercuryPress()"><a href="#">Hg</a></div>
+        <div class="element_cell post-transition" onmouseenter="thalliumPress()"><a href="#">Ti</a></div>
+        <div class="element_cell post-transition" onmouseenter="leadPress()"><a href="#">Pb</a></div>
+        <div class="element_cell post-transition" onmouseenter="bismuthPress()"><a href="#">Bi</a></div>
+        <div class="element_cell post-transition" onmouseenter="poloniumPress()"><a href="#">Po</a></div>
+        <div class="element_cell post-transition" onmouseenter="astatinePress()"><a href="#">At</a></div>
+        <div class="element_cell noble" onmouseenter="radonPress()"><a href="#">Rn</a></div>
       </div>
       <div class="row">
-        <div class="element_cell alkali"><a href="#">Fr</a></div>
-        <div class="element_cell alkali-earth"><a href="#">Ra</a></div>
-        <div class="element_cell act"><a href="#">Ac</a></div>
-        <div class="element_cell transition"><a href="#">Rf</a></div>
-        <div class="element_cell transition"><a href="#">Db</a></div>
-        <div class="element_cell transition"><a href="#">Sg</a></div>
-        <div class="element_cell transition"><a href="#">Bh</a></div>
-        <div class="element_cell transition"><a href="#">Hs</a></div>
-        <div class="element_cell unknown"><a href="#">Mt</a></div>
-        <div class="element_cell unknown"><a href="#">Ds</a></div>
-        <div class="element_cell unknown"><a href="#">Rg</a></div>
-        <div class="element_cell unknown"><a href="#">Cn</a></div>
-        <div class="element_cell unknown"><a href="#">Nh</a></div>
-        <div class="element_cell unknown"><a href="#">Fl</a></div>
-        <div class="element_cell unknown"><a href="#">Mc</a></div>
-        <div class="element_cell unknown"><a href="#">Lv</a></div>
-        <div class="element_cell unknown"><a href="#">Ts</a></div>
-        <div class="element_cell unknown"><a href="#">Og</a></div>
+        <div class="element_cell alkali" onmouseenter="franciumPress()"><a href="#">Fr</a></div>
+        <div class="element_cell alkali-earth" onmouseenter="radiumPress()"><a href="#">Ra</a></div>
+        <div class="element_cell act" onmouseenter="actiniumPress()"><a href="#">Ac</a></div>
+        <div class="element_cell transition" onmouseenter="rutherfordiumPress()"><a href="#">Rf</a></div>
+        <div class="element_cell transition" onmouseenter="dubniumPress()"><a href="#">Db</a></div>
+        <div class="element_cell transition" onmouseenter="seaborgiumPress()"><a href="#">Sg</a></div>
+        <div class="element_cell transition" onmouseenter="bohriumPress()"><a href="#">Bh</a></div>
+        <div class="element_cell transition" onmouseenter="hassiumPress()"><a href="#">Hs</a></div>
+        <div class="element_cell unknown" onmouseenter="meitneriumPress()"><a href="#">Mt</a></div>
+        <div class="element_cell unknown" onmouseenter="darmstadtiumPress()"><a href="#">Ds</a></div>
+        <div class="element_cell unknown" onmouseenter="roentgeniumPress()"><a href="#">Rg</a></div>
+        <div class="element_cell unknown" onmouseenter="coperniciumPress()"><a href="#">Cn</a></div>
+        <div class="element_cell unknown" onmouseenter="nihoniumPress()"><a href="#">Nh</a></div>
+        <div class="element_cell unknown" onmouseenter="fleroviumPress()"><a href="#">Fl</a></div>
+        <div class="element_cell unknown" onmouseenter="moscoviumPress()"><a href="#">Mc</a></div>
+        <div class="element_cell unknown" onmouseenter="livermoriumPress()"><a href="#">Lv</a></div>
+        <div class="element_cell unknown" onmouseenter="tennessinePress()"><a href="#">Ts</a></div>
+        <div class="element_cell unknown" onmouseenter="oganessonPress()"><a href="#">Og</a></div>
       </div>
 
       <div class="other_elements">
@@ -174,40 +174,40 @@
           <div class="blank_cell"></div>
           <div class="blank_cell"></div>
           <div class="blank_cell"></div>
-          <div class="element_cell lan"><a href="#">Ce</a></div>
-          <div class="element_cell lan"><a href="#">Pr</a></div>
-          <div class="element_cell lan"><a href="#">Nd</a></div>
-          <div class="element_cell lan"><a href="#">Pm</a></div>
-          <div class="element_cell lan"><a href="#">Sm</a></div>
-          <div class="element_cell lan"><a href="#">Eu</a></div>
-          <div class="element_cell lan"><a href="#">Gd</a></div>
-          <div class="element_cell lan"><a href="#">Tb</a></div>
-          <div class="element_cell lan"><a href="#">Dy</a></div>
-          <div class="element_cell lan"><a href="#">Ho</a></div>
-          <div class="element_cell lan"><a href="#">Er</a></div>
-          <div class="element_cell lan"><a href="#">Tm</a></div>
-          <div class="element_cell lan"><a href="#">Yb</a></div>
-          <div class="element_cell lan"><a href="#">Lu</a></div>
+          <div class="element_cell lan" onmouseenter="ceriumPress()"><a href="#">Ce</a></div>
+          <div class="element_cell lan" onmouseenter="praseodymiumPress()"><a href="#">Pr</a></div>
+          <div class="element_cell lan" onmouseenter="neodymiumPress()"><a href="#">Nd</a></div>
+          <div class="element_cell lan" onmouseenter="promethiumPress()"><a href="#">Pm</a></div>
+          <div class="element_cell lan" onmouseenter="samariumPress()"><a href="#">Sm</a></div>
+          <div class="element_cell lan" onmouseenter="europiumPress()"><a href="#">Eu</a></div>
+          <div class="element_cell lan" onmouseenter="gadoliniumPress()"><a href="#">Gd</a></div>
+          <div class="element_cell lan" onmouseenter="terbiumPress()"><a href="#">Tb</a></div>
+          <div class="element_cell lan" onmouseenter="dysprosiumPress()"><a href="#">Dy</a></div>
+          <div class="element_cell lan" onmouseenter="holmiumPress()"><a href="#">Ho</a></div>
+          <div class="element_cell lan" onmouseenter="erbiumPress()"><a href="#">Er</a></div>
+          <div class="element_cell lan" onmouseenter="thuliumPress()"><a href="#">Tm</a></div>
+          <div class="element_cell lan" onmouseenter="ytterbiumPress()"><a href="#">Yb</a></div>
+          <div class="element_cell lan" onmouseenter="lutetiumPress()"><a href="#">Lu</a></div>
         </div>
 
         <div class="row">
           <div class="blank_cell"></div>
           <div class="blank_cell"></div>
           <div class="blank_cell"></div>
-          <div class="element_cell act"><a href="#">Th</a></div>
-          <div class="element_cell act"><a href="#">Pa</a></div>
-          <div class="element_cell act"><a href="#">U</a></div>
-          <div class="element_cell act"><a href="#">Np</a></div>
-          <div class="element_cell act"><a href="#">Pu</a></div>
-          <div class="element_cell act"><a href="#">Am</a></div>
-          <div class="element_cell act"><a href="#">Cm</a></div>
-          <div class="element_cell act"><a href="#">Bk</a></div>
-          <div class="element_cell act"><a href="#">Cf</a></div>
-          <div class="element_cell act"><a href="#">Es</a></div>
-          <div class="element_cell act"><a href="#">Fm</a></div>
-          <div class="element_cell act"><a href="#">Md</a></div>
-          <div class="element_cell act"><a href="#">No</a></div>
-          <div class="element_cell act"><a href="#">Lr</a></div>
+          <div class="element_cell act" onmouseenter="thoriumPress()"><a href="#">Th</a></div>
+          <div class="element_cell act" onmouseenter="protactiniumPress()"><a href="#">Pa</a></div>
+          <div class="element_cell act" onmouseenter="uraniumPress()"><a href="#">U</a></div>
+          <div class="element_cell act" onmouseenter="neptuniuimPress()"><a href="#">Np</a></div>
+          <div class="element_cell act" onmouseenter="plutoniumPress()"><a href="#">Pu</a></div>
+          <div class="element_cell act" onmouseenter="americiumPress()"><a href="#">Am</a></div>
+          <div class="element_cell act" onmouseenter="curiumPress()"><a href="#">Cm</a></div>
+          <div class="element_cell act" onmouseenter="berkeliumPress()"><a href="#">Bk</a></div>
+          <div class="element_cell act" onmouseenter="californiumPress()"><a href="#">Cf</a></div>
+          <div class="element_cell act" onmouseenter="einsteiniumPress()"><a href="#">Es</a></div>
+          <div class="element_cell act" onmouseenter="fermiumPress()"><a href="#">Fm</a></div>
+          <div class="element_cell act" onmouseenter="mendeleviumPress()"><a href="#">Md</a></div>
+          <div class="element_cell act" onmouseenter="nobeliumPress()"><a href="#">No</a></div>
+          <div class="element_cell act" onmouseenter="lawrenciumPress()"><a href="#">Lr</a></div>
         </div>
       </div>
     </div>
