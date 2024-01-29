@@ -28,22 +28,18 @@ button:hover {
 }
 
 #demo1 {
-  background-color: red;
   font-size: 2em;
 }
 
 #demo2 {
-  background-color: green;
   font-size: 2em;
 }
 
 #demo3 {
-  background-color: purple;
   font-size: 2em;
 }
 
 #demo {
-  background-color: orange;
   font-size: 2em;
 }
 
@@ -55,7 +51,10 @@ a {
   z-index: -1;
   text-decoration: none;
   color: black;
+  pointer-events: none;
 }
+
+/* issue faced: js function would end when anchor tag was selected, used pointer events to stop that*/
 
 .info {
   width: 100%;

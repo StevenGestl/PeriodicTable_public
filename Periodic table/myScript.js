@@ -50,7 +50,6 @@ function hydrogenPress() {
   document.getElementById("demo").innerHTML = "Name: " + hydrogen[0];
   document.getElementById("demo1").innerHTML = hydrogen[1];
   document.getElementById("demo2").innerHTML = hydrogen[2];
-  document.getElementById("demo3").innerHTML = hydrogenString;
 }
 
 function lithiumPress() {
@@ -574,10 +573,541 @@ function nihoniumPress() {
 }
 /* */
 
-/* Pulls array data from helium const and places into DOM */
-function heliumPress() {
-  document.getElementById("demo1").innerHTML = helium;
+function carbonPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + carbon[0];
+  document.getElementById("demo1").innerHTML = carbon[1];
+  document.getElementById("demo2").innerHTML = carbon[2];
+ 
 }
+
+function siliconPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + silicon[0];
+  document.getElementById("demo1").innerHTML = silicon[1];
+  document.getElementById("demo2").innerHTML = silicon[2];
+ 
+}
+
+function germaniumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + germanium[0];
+  document.getElementById("demo1").innerHTML = germanium[1];
+  document.getElementById("demo2").innerHTML = germanium[2];
+ 
+}
+
+function tinPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + tin[0];
+  document.getElementById("demo1").innerHTML = tin[1];
+  document.getElementById("demo2").innerHTML = tin[2];
+ 
+}
+
+function leadPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + lead[0];
+  document.getElementById("demo1").innerHTML = lead[1];
+  document.getElementById("demo2").innerHTML = lead[2];
+ 
+}
+
+function fleroviumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + flerovium[0];
+  document.getElementById("demo1").innerHTML = flerovium[1];
+  document.getElementById("demo2").innerHTML = flerovium[2];
+ 
+}
+/* */
+
+function nitrogenPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + nitrogen[0];
+  document.getElementById("demo1").innerHTML = nitrogen[1];
+  document.getElementById("demo2").innerHTML = nitrogen[2];
+ 
+}
+
+function phosphorusPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + phosphorus[0];
+  document.getElementById("demo1").innerHTML = phosphorus[1];
+  document.getElementById("demo2").innerHTML = phosphorus[2];
+ 
+}
+
+function arsenicPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + arsenic[0];
+  document.getElementById("demo1").innerHTML = arsenic[1];
+  document.getElementById("demo2").innerHTML = arsenic[2];
+ 
+}
+
+function antimonyPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + antimony[0];
+  document.getElementById("demo1").innerHTML = antimony[1];
+  document.getElementById("demo2").innerHTML = antimony[2];
+ 
+}
+
+function bismuthPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + bismuth[0];
+  document.getElementById("demo1").innerHTML = bismuth[1];
+  document.getElementById("demo2").innerHTML = bismuth[2];
+ 
+}
+
+function moscoviumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + moscovium[0];
+  document.getElementById("demo1").innerHTML = moscovium[1];
+  document.getElementById("demo2").innerHTML = moscovium[2];
+ 
+}
+/* */
+function oxygenPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + oxygen[0];
+  document.getElementById("demo1").innerHTML = oxygen[1];
+  document.getElementById("demo2").innerHTML = oxygen[2];
+ 
+}
+
+function sulfurPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + sulfur[0];
+  document.getElementById("demo1").innerHTML = sulfur[1];
+  document.getElementById("demo2").innerHTML = sulfur[2];
+ 
+}
+
+function seleniumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + selenium[0];
+  document.getElementById("demo1").innerHTML = selenium[1];
+  document.getElementById("demo2").innerHTML = selenium[2];
+ 
+}
+
+function telluriumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + tellurium[0];
+  document.getElementById("demo1").innerHTML = tellurium[1];
+  document.getElementById("demo2").innerHTML = tellurium[2];
+ 
+}
+
+function poloniumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + polonium[0];
+  document.getElementById("demo1").innerHTML = polonium[1];
+  document.getElementById("demo2").innerHTML = polonium[2];
+ 
+}
+
+function livermoriumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + livermorium[0];
+  document.getElementById("demo1").innerHTML = livermorium[1];
+  document.getElementById("demo2").innerHTML = livermorium[2];
+ 
+}
+/* */
+function fluorinePress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + fluorine[0];
+  document.getElementById("demo1").innerHTML = fluorine[1];
+  document.getElementById("demo2").innerHTML = fluorine[2];
+ 
+}
+
+function chlorinePress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + chlorine[0];
+  document.getElementById("demo1").innerHTML = chlorine[1];
+  document.getElementById("demo2").innerHTML = chlorine[2];
+ 
+}
+
+function brominePress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + bromine[0];
+  document.getElementById("demo1").innerHTML = bromine[1];
+  document.getElementById("demo2").innerHTML = bromine[2];
+ 
+}
+
+function iodinePress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + iodine[0];
+  document.getElementById("demo1").innerHTML = iodine[1];
+  document.getElementById("demo2").innerHTML = iodine[2];
+ 
+}
+
+function astatinePress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + astatine[0];
+  document.getElementById("demo1").innerHTML = astatine[1];
+  document.getElementById("demo2").innerHTML = astatine[2];
+ 
+}
+
+function tennessinePress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + tennessine[0];
+  document.getElementById("demo1").innerHTML = tennessine[1];
+  document.getElementById("demo2").innerHTML = tennessine[2];
+ 
+}
+/* */
+function heliumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + helium[0];
+  document.getElementById("demo1").innerHTML = helium[1];
+  document.getElementById("demo2").innerHTML = helium[2];
+ 
+}
+
+function neonPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + neon[0];
+  document.getElementById("demo1").innerHTML = neon[1];
+  document.getElementById("demo2").innerHTML = neon[2];
+ 
+}
+
+function argonPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + argon[0];
+  document.getElementById("demo1").innerHTML = argon[1];
+  document.getElementById("demo2").innerHTML = argon[2];
+ 
+}
+
+function kryptonPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + krypton[0];
+  document.getElementById("demo1").innerHTML = krypton[1];
+  document.getElementById("demo2").innerHTML = krypton[2];
+ 
+}
+
+function xenonPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + xenon[0];
+  document.getElementById("demo1").innerHTML = xenon[1];
+  document.getElementById("demo2").innerHTML = xenon[2];
+ 
+}
+
+function radonPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + radon[0];
+  document.getElementById("demo1").innerHTML = radon[1];
+  document.getElementById("demo2").innerHTML = radon[2];
+ 
+}
+
+function oganessonPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + oganesson[0];
+  document.getElementById("demo1").innerHTML = oganesson[1];
+  document.getElementById("demo2").innerHTML = oganesson[2];
+ 
+}
+/* */
+
+function ceriumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + cerium[0];
+  document.getElementById("demo1").innerHTML = cerium[1];
+  document.getElementById("demo2").innerHTML = cerium[2];
+ 
+}
+
+function praseodymiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + praseodymium[0];
+  document.getElementById("demo1").innerHTML = praseodymium[1];
+  document.getElementById("demo2").innerHTML = praseodymium[2];
+ 
+}
+
+function neodymiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + neodymium[0];
+  document.getElementById("demo1").innerHTML = neodymium[1];
+  document.getElementById("demo2").innerHTML = neodymium[2];
+ 
+}
+
+function promethiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + promethium[0];
+  document.getElementById("demo1").innerHTML = promethium[1];
+  document.getElementById("demo2").innerHTML = promethium[2];
+ 
+}
+
+function samariumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + samarium[0];
+  document.getElementById("demo1").innerHTML = samarium[1];
+  document.getElementById("demo2").innerHTML = samarium[2];
+ 
+}
+
+function europiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + europium[0];
+  document.getElementById("demo1").innerHTML = europium[1];
+  document.getElementById("demo2").innerHTML = europium[2];
+ 
+}
+
+function gadoliniumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + gadolinium[0];
+  document.getElementById("demo1").innerHTML = gadolinium[1];
+  document.getElementById("demo2").innerHTML = gadolinium[2];
+ 
+}
+
+function terbiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + terbium[0];
+  document.getElementById("demo1").innerHTML = terbium[1];
+  document.getElementById("demo2").innerHTML = terbium[2];
+ 
+}
+
+function dysprosiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + dysprosium[0];
+  document.getElementById("demo1").innerHTML = dysprosium[1];
+  document.getElementById("demo2").innerHTML = dysprosium[2];
+ 
+}
+
+function holmiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + holmium[0];
+  document.getElementById("demo1").innerHTML = holmium[1];
+  document.getElementById("demo2").innerHTML = holmium[2];
+ 
+}
+
+function erbiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + erbium[0];
+  document.getElementById("demo1").innerHTML = erbium[1];
+  document.getElementById("demo2").innerHTML = erbium[2];
+ 
+}
+
+function thuliumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + thulium[0];
+  document.getElementById("demo1").innerHTML = thulium[1];
+  document.getElementById("demo2").innerHTML = thulium[2];
+ 
+}
+
+function ytterbiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + ytterbium[0];
+  document.getElementById("demo1").innerHTML = ytterbium[1];
+  document.getElementById("demo2").innerHTML = ytterbium[2];
+ 
+}
+
+function lutetiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + lutetium[0];
+  document.getElementById("demo1").innerHTML = lutetium[1];
+  document.getElementById("demo2").innerHTML = lutetium[2];
+ 
+}
+/* */
+function thoriumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + thorium[0];
+  document.getElementById("demo1").innerHTML = thorium[1];
+  document.getElementById("demo2").innerHTML = thorium[2];
+ 
+}
+
+function protactiniumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + protactinium[0];
+  document.getElementById("demo1").innerHTML = protactinium[1];
+  document.getElementById("demo2").innerHTML = protactinium[2];
+ 
+}
+
+function uraniumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + uranium[0];
+  document.getElementById("demo1").innerHTML = uranium[1];
+  document.getElementById("demo2").innerHTML = uranium[2];
+ 
+}
+
+function neptuniumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + neptunium[0];
+  document.getElementById("demo1").innerHTML = neptunium[1];
+  document.getElementById("demo2").innerHTML = neptunium[2];
+ 
+}
+
+function plutoniumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + plutonium[0];
+  document.getElementById("demo1").innerHTML = plutonium[1];
+  document.getElementById("demo2").innerHTML = plutonium[2];
+ 
+}
+
+function americiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + americium[0];
+  document.getElementById("demo1").innerHTML = americium[1];
+  document.getElementById("demo2").innerHTML = americium[2];
+ 
+}
+
+function curiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + curium[0];
+  document.getElementById("demo1").innerHTML = curium[1];
+  document.getElementById("demo2").innerHTML = curium[2];
+ 
+}
+
+function berkeliumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + berkelium[0];
+  document.getElementById("demo1").innerHTML = berkelium[1];
+  document.getElementById("demo2").innerHTML = berkelium[2];
+ 
+}
+
+function californiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + californium[0];
+  document.getElementById("demo1").innerHTML = californium[1];
+  document.getElementById("demo2").innerHTML = californium[2];
+ 
+}
+
+function einsteiniumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + einsteinium[0];
+  document.getElementById("demo1").innerHTML = einsteinium[1];
+  document.getElementById("demo2").innerHTML = einsteinium[2];
+ 
+}
+
+function fermiumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + fermium[0];
+  document.getElementById("demo1").innerHTML = fermium[1];
+  document.getElementById("demo2").innerHTML = fermium[2];
+ 
+}
+
+function mendeleviumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + mendelevium[0];
+  document.getElementById("demo1").innerHTML = mendelevium[1];
+  document.getElementById("demo2").innerHTML = mendelevium[2];
+ 
+}
+
+function nobeliumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + nobelium[0];
+  document.getElementById("demo1").innerHTML = nobelium[1];
+  document.getElementById("demo2").innerHTML = nobelium[2];
+ 
+}
+
+function lawrenciumPress() {
+  var T = document.getElementById("display_element");
+  T.style.display = "block";
+  document.getElementById("demo").innerHTML = "Name: " + lawrencium[0];
+  document.getElementById("demo1").innerHTML = lawrencium[1];
+  document.getElementById("demo2").innerHTML = lawrencium[2];
+ 
+}
+
+/* Pulls array data from helium const and places into DOM */
+
 
 /* Array data for various elements in the table
 const element = [name, symbol, atomic number, atomic mass ] */
