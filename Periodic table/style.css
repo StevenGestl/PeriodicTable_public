@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(153, 153, 255);
+  background-color: #ccddff;
 }
 
 button {
@@ -62,7 +62,7 @@ a {
 
 #display_element {
   color: black;
-  background-color: teal;
+  background-color: #6699ff;
   font-size: 14px;
   align-items: center;
   justify-content: center;
@@ -70,7 +70,7 @@ a {
   border-radius: 5px;
   text-align: center;
   margin-top: 1%;
-  margin-left: 10%;
+  margin-left: 15%;
   border: 5px solid black;
   opacity: 1;
   height: 220px;
@@ -81,7 +81,7 @@ a {
 
 #btn_row {
   width: 33%;
-  background-color: teal;
+  background-color: #6699ff;
   display: inline-block;
   margin-top: 1%;
   margin-left: 33%;
@@ -104,7 +104,6 @@ a {
 }
 
 .periodic_elements {
-  background-color: rgb(153, 153, 255);
   z-index: 0;
   margin-top: 3%;
 }
@@ -133,35 +132,6 @@ a {
   height: 45px;
   opacity: 1;
   color: red;
-}
-
-
-.test_div_after {
-  background-color: red;
-}
-
-.test_div {
-  background-color: greenyellow;
-}
-
-.test_div:hover {
-  background-color: white;
-  opacity: 1;
-  border: 5px solid red
-}
-
-.noble_after {
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  box-sizing: border-box;
-  border-radius: 3px;
-  margin: 1px;
-  display: block;
-  width: 45px;
-  height: 45px;
-  background-color: red;
-
 }
 
 table {
@@ -232,6 +202,7 @@ td {
   background-color: white !important;
   border-radius: 8px;
 }
+/*would consider adding an on/off button for hover effects for accessibility*/
 
 tD:hover {
   color: red;
@@ -249,21 +220,4 @@ tD:hover {
   height: 45px;
   background-color: yellow;
   opacity: .8;
-}
-
-.jquery_style {
-  background-color: red;
-}
-
-#j-demo:hover {
-  background-color: white;
-}
-
-.alkali-after {
-  background-color: red;
-}
-
-.element_cell-after {
-  background-color: aqua;
-  opacity: .5;
 }
